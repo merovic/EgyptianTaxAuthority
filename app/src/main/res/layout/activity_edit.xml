@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/carengineedittext"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:textDirection="rtl"
+                android:background="@drawable/roundedframebold"
+                android:hint="رقم المحرك"
+                android:padding="8dp"/>
+
+
+            <EditText
+                android:id="@+id/carchassisedittext"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:textDirection="rtl"
+                android:background="@drawable/roundedframebold"
+                android:hint="رقم الشاسيه"
+                android:padding="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/carnumberedittext2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="textPhonetic"
+                    android:padding="8dp"
+                    android:textDirection="rtl"
+                    android:background="@drawable/roundedframebold"
+                    android:hint="ارقام اللوحات"/>
+
+                <EditText
+                    android:id="@+id/carnumberedittext"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="5dp"
+                    android:padding="8dp"
+                    android:textDirection="rtl"
+                    android:background="@drawable/roundedframebold"
+                    android:hint="حروف اللوحات"/>
+
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/carmodeledittext"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:textDirection="rtl"
+                android:background="@drawable/roundedframebold"
+                android:hint="سنة الصنع"
+                android:padding="8dp"/>
+
+            <Spinner
+                android:id="@+id/carcolorspinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:textDirection="rtl"
+                android:background="@drawable/roundedframebold"/>
+
+            <Spinner
+                android:id="@+id/carcylindersspinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:textDirection="rtl"
+                android:background="@drawable/roundedframebold"/>
+
+            <Spinner
+                android:id="@+id/carmakerspinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedframebold"/>
+
+            <Spinner
+                android:id="@+id/carbrandspinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedframebold"/>
+
+            <Spinner
+                android:id="@+id/fueltypespinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedframebold"/>
+
+            <Spinner
+                android:id="@+id/belongstopinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedframebold"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedtext3curve"
+        android:text="تحديث"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79659804067",
+    "firebase_url": "https://egyptiantaxauthority.firebaseio.com",
+    "project_id": "egyptiantaxauthority",
+    "storage_bucket": "egyptiantaxauthority.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79659804067:android:505ddba2eb9609cc",
+        "android_client_info": {
+          "package_name": "com.amirahmed.egyptiantaxauthority"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79659804067-597sl65ano4ac02edt87oq7lb2ev8ub3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amirahmed.egyptiantaxauthority",
+            "certificate_hash": "49688c749b103a66ecc6f01ac6ba21333038fafe"
+          }
+        },
+        {
+          "client_id": "79659804067-9m53gobtnkmhvvig75nmnpfeefr5is9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIAsWO6oJ4GI-3udmIfcJzViMidEW_hsQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79659804067-9m53gobtnkmhvvig75nmnpfeefr5is9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
